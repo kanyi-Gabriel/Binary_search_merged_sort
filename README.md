@@ -6,12 +6,11 @@ This repository contains Python implementations of iterative binary search and m
 - [Features](#features)
 - [How It Works](#how-it-works)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Example Output](#example-output)
 - [Algorithm Complexity](#algorithm-complexity)
-- [Contributing](#contributing)
-- [License](#license)
+  
+
 
 ## 🚀 Features
 
@@ -27,16 +26,27 @@ This repository contains Python implementations of iterative binary search and m
 ## 💡 How It Works
 
 1. **Input**: An unsorted array and target values to search for
-2. 
+
 3. **Sorting**: The array is sorted using merge sort algorithm
-4. 
+ 
 5. **Searching**: Binary search is applied to find the target values efficiently
-6. 
+
 7. **Output**: Returns the index positions of found elements or -1 if not found
 
 ## 🛠️ Prerequisites
 
 - Python 3.x installed on your system
+
+## ⚡ Algorithm Complexity
+### Merge Sort
+Time Complexity: O(n log n) in all cases (best, average, worst)
+Space Complexity: O(n)
+Stability: Stable sorting algorithm
+
+### Binary Search
+Time Complexity: O(log n)
+Space Complexity: O(1) for iterative implementation
+Requirement: Array must be sorted
 
 ## Example of sample output
 
