@@ -40,12 +40,16 @@ This repository contains Python implementations of iterative binary search and m
 ## ⚡ Algorithm Complexity
 ### Merge Sort
 Time Complexity: O(n log n) in all cases (best, average, worst)
+
 Space Complexity: O(n)
+
 Stability: Stable sorting algorithm
 
 ### Binary Search
 Time Complexity: O(log n)
+
 Space Complexity: O(1) for iterative implementation
+
 Requirement: Array must be sorted
 
 ## Example of sample output
